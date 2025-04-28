@@ -1,23 +1,18 @@
 {
   "private": true,
-  "description": "An example project for NextAuth.js with Next.js",
-  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "description": "An starter project with Next.js NextAuth.js TailwindCSS Drizzle Postgres",
+  "repository": "https://github.com/dchicale/echo-watcher.git",
   "bugs": {
-    "url": "https://github.com/nextauthjs/next-auth/issues"
+    "url": "https://github.com/dchicale/echo-watcher/issues"
   },
-  "homepage": "https://next-auth-example.vercel.app",
+  "homepage": "https://localhost:3000'",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },
-  "author": "Iain Collins <me@iaincollins.com>",
-  "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Nico Domino <yo@ndo.dev>",
-    "Lluis Agusti <hi@llu.lu>",
-    "Thang Huu Vu <hi@thvu.dev>"
-  ],
+  "author": "Danilo Chicale <danilo.chicale@live.com>",
+  "contributors": [],
   "dependencies": {
     "@auth/unstorage-adapter": "^2.9.0",
     "@radix-ui/react-avatar": "^1.1.7",
@@ -35,16 +30,16 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-animate": "^2.0.7",
     "unstorage": "^1.16.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "^20.17.31",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
-    "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17",
+    "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3"
   },
   "engines": {
