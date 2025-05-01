@@ -41,7 +41,7 @@ const data = {
     },
     {
       name: "Acme Corp.",
-      logo: "Waves",
+      logo: Waves,
       plan: "Startup",
     },
     {
