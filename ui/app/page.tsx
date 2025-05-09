@@ -1,6 +1,6 @@
 import { auth } from "auth"
-import LoginPage from "./login/page"
 import DashboardPage from "./dashboard/page"
+import LoginPage from "./auth/login/page"
 
 export default async function Index() {
   const session = await auth()
@@ -8,10 +8,8 @@ export default async function Index() {
   if (session) return (
     <div>
       <DashboardPage />
-      <pre>
-        {JSON.stringify(session, null, 2)}
-      </pre>
-    </div>)
+    </div>
+  )
 
   return (
     <div>
