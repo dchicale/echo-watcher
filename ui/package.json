@@ -5,7 +5,7 @@
   "bugs": {
     "url": "https://github.com/dchicale/echo-watcher/issues"
   },
-  "homepage": "https://localhost:3000'",
+  "homepage": "https://localhost:3000",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
