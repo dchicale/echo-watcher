@@ -5,8 +5,8 @@ import {
   Bell,
   ChevronsUpDown,
   CreditCard,
-  LogOut,
 } from "lucide-react"
+import { SignOut } from "@/components/auth-components"
 
 import {
   Avatar,
@@ -95,8 +95,7 @@ export function NavUser({
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <LogOut />
-              Log out
+              <SignOut />
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
